@@ -1,5 +1,116 @@
+@font-face {
+  font-family: "SF Pro Display Black Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Black Italic"),
+    url("./assets/fonts/SFPRODISPLAYBLACKITALIC.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Display Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Bold"),
+    url("./assets/fonts/SFPRODISPLAYBLOD.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Display Heavy Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Heavy Italic"),
+    url("./assets/fonts/SFPRODISPLAYHEAVYITALIC.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Display Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Light Italic"),
+    url("./assets/fonts/SFPRODISPLAYLIGHTITALIC.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Display Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Medium"),
+    url("./assets/fonts/SFPRODISPLAYMEDIUM.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Display Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Regular"),
+    url("./assets/fonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Display Semi Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Semi Bold Italic"),
+    url("./assets/fonts/SFPRODISPLAYSEMIBOLDITALIC.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Display Thin Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Thin Italic"),
+    url("./assets/fonts/SFPRODISPLAYTHINITALIC.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Display Ultra Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Ultra Light Italic"),
+    url("./assets/fonts/SFPRODISPLAYULTRALIGHTITALIC.OTF") format("opentype");
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "SF Pro Display Regular";
+  font-weight: 400;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.nav {
+  max-width: 996px;
+  margin: 0 auto;
+  padding: 0px 8px;
+  font-size: 12px;
+  line-height: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-apple,
+.icon-shoppingBag {
+  width: 14px;
+  height: 44px;
+}
+
+.icon-search {
+  width: 15px;
+  height: 44px;
+}
+
+.nav a {
+  font-size: 12px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 400;
 }
